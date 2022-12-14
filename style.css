@@ -1,19 +1,38 @@
-
-h1{
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  overflow-x: hidden;
+}
+h1 {
   font-family: sans-serif;
   font-weight: 700;
 }
-p{
+h1.second-color {
+  color: #5a65ea;
+  font-size: 48px;
+  text-align: center;
+  margin: 0;
+}
+h2 {
+  font-family: sans-serif;
+  font-weight: 700;
+  color: black;
+  font-size: 24px;
+  text-align: center;
+  margin: 0;
+}
+p {
   font-family: sans-serif;
   font-weight: 400;
   color: #555;
 }
-button{
+button {
   padding-left: 12px;
   padding-right: 12px;
   height: 56px;
   border-radius: 16px;
-  background-color: #5A65EA;
+  background-color: #5a65ea;
   border-width: 0px;
   color: #fefefe;
   font-size: 16px;
@@ -21,67 +40,176 @@ button{
   letter-spacing: 0.16rem;
   cursor: pointer;
 }
-button:hover{
+button:hover {
   background-color: #8992ed;
 }
-.home-section{
+li {
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+}
+footer {
+  display: flex;
+  flex: 1;
+  background-color: #b1b1b1;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 60px;
+  height: 156px;
+}
+.home-section {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
   width: 100vw;
-  height: 100vw;
-  background-color: #fefefe;
 }
-.navigation-bar{
+.navigation-bar {
   display: flex;
-  width: 1216px;
+  width: 1440px;
   height: 72px;
   flex-direction: row;
   align-items: baseline;
-  justify-content:space-between;
-  padding-top:64px;
+  justify-content: space-between;
+  padding-top: 64px;
   font-family: sans-serif;
 }
-.navigation-link{
+.navigation-link {
   padding-left: 24px;
-
 }
-.home-info{
+.home-info {
   display: flex;
   flex-direction: row;
+  width: 1440px;
   align-items: center;
   justify-content: space-between;
-  width: 1216px;
   height: 594px;
-  padding-top: 64px;
+  padding-top: 86px;
 }
-.home-info-title{
+.home-info-title {
   font-size: 48px;
-  font-weight:bold;
-  margin:0;
+  font-weight: bold;
+  margin: 0;
 }
-.home-info-subtitle{
+.home-info-subtitle {
   font-size: 20px;
   line-height: 28px;
   max-width: 60%;
   margin-top: 24px;
 }
-.image-perfil{
+.image-perfil {
   height: 542px;
   width: 542px;
-  border-radius:50%;
-  border-color: #5A65EA;
+  border-radius: 50%;
+  border-color: #5a65ea;
   border-width: 4px;
   border-style: solid;
 }
-.home-info-social-media{
+.home-info-social-media {
   display: flex;
   flex-direction: row;
   width: 50%;
   align-items: center;
   padding-top: 24px;
 }
-.icon-social-media{
+.icon-social-media {
   padding-right: 24px;
+}
+.ability-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 136px;
+  flex-direction: column;
+}
+.text-container {
+  text-align: center;
+}
+.section-titles {
+  font-size: 48px;
+  font-weight: bold;
+  margin: 0;
+}
+.cards-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 48px;
+}
+.ability-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  padding-top: 24px;
+  height: 690px;
+  width: 312px;
+  border-color: #555;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 12px;
+  margin-right: 24px;
+}
+.ability-icon {
+  display: flex;
+  width: 80px;
+  height: 80px;
+  background-color: #5a65ea;
+  border-radius: 40px;
+  align-self: center;
+  justify-content: center;
+}
+.subtitle {
+  text-align: center;
+}
+.section-projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 136px;
+  flex-direction: column;
+}
+.section-titles-left {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+}
+.project-card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.projects-card {
+  width: 384px;
+  height: 300px;
+  border-radius: 24px;
+  margin-right: 12px;
+  border-width: 1px;
+  border-style: solid;
+  margin-top: 48px;
+  background-color: #fff;
+}
+.fill-div {
+  text-align: center;
+  display: block;
+  height: 100%;
+  width: 100%;
+  text-decoration: none;
+}
+.projects-image {
+  width: 200px;
+  height: 200px;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  margin-top: 48px;
+  justify-content: center;
+  align-items: center;
+}
+.contact-infos {
+  display: flex;
+  flex-direction: row;
+  margin-top: 24px;
+}
+.contact-icon {
+  margin-right: 12px;
 }
