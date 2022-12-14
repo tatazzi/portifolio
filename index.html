@@ -9,12 +9,18 @@
     <section class="home-section">
       <div class="navigation-bar">
         <h1>Otávio Gonçalves</h1>
-        <div class="">
-          <a class="navigation-link">Habilidades</a>
-          <a class="navigation-link">Portifolio</a>
-          <a class="navigation-link">Experiência</a>
+        <div>
+          <a onclick="onClickScrollTo('ability')" class="navigation-link"
+            >Habilidades</a
+          >
+          <a onclick="onClickScrollTo('portfolio')" class="navigation-link"
+            >Portifolio</a
+          >
+          <!-- <a onclick="onClickScrollTo('')" class="navigation-link"
+            >Experiência</a
+          > -->
         </div>
-        <button>CONTATO</button>
+        <button onclick="onClickScrollTo('contact')">CONTATO</button>
       </div>
       <div class="home-info">
         <div>
@@ -24,13 +30,18 @@
           <p class="home-info-subtitle">
             Desenvolvedor front-end desde 2021, tenho como foco
           </p>
-          <button>ENTRAR EM CONTATO</button>
+          <button onclick="onClickScrollTo('contact')">
+            ENTRAR EM CONTATO
+          </button>
           <div class="home-info-social-media">
-            <a href="https://github.com/tatazzi" class="icon-social-media">
+            <a
+              onclick="onClickLink('https://github.com/tatazzi')"
+              class="icon-social-media"
+            >
               <img src="assets/icons/git-hub.svg" />
             </a>
             <a
-              href="https://www.linkedin.com/in/ot%C3%A1vio-gon%C3%A7alves-15aa76231/"
+              onclick="onClickLink('https://www.linkedin.com/in/ot%C3%A1vio-gon%C3%A7alves-15aa76231/')"
               class="icon-social-media"
             >
               <img src="assets/icons/linkedin.svg" />
@@ -46,7 +57,7 @@
         </div>
       </div>
     </section>
-    <section class="ability-section">
+    <section class="ability-section" id="ability">
       <div class="text-container">
         <h1 class="section-titles">Habilidades que</h1>
         <h1 class="second-color">domino.</h1>
@@ -89,14 +100,17 @@
         </div>
       </div>
     </section>
-    <section class="section-projects">
+    <section class="section-projects" id="portfolio">
       <div class="section-titles-left">
         <h1 class="section-titles">Portifolio</h1>
         <h1 class="second-color">de projetos.</h1>
       </div>
       <div class="project-card-container">
         <div class="projects-card">
-          <a href="https://github.com/tatazzi/todo_list" class="fill-div">
+          <a
+            onclick="onClickLink('https://github.com/tatazzi/todo_list')"
+            class="fill-div"
+          >
             <img class="projects-image" src="assets/images/todo.svg" />
             <h2>To Do list</h2>
             <p class="subtitle">
@@ -105,7 +119,10 @@
           </a>
         </div>
         <div class="projects-card">
-          <a href="https://github.com/tatazzi/marvel" class="fill-div">
+          <a
+            onclick="onClickLink('https://github.com/tatazzi/marvel')"
+            class="fill-div"
+          >
             <img class="projects-image" src="assets/images/marvel.svg" />
             <h2>Marvel heros</h2>
             <p class="subtitle">
@@ -114,14 +131,20 @@
           </a>
         </div>
         <div class="projects-card">
-          <a href="https://github.com/tatazzi/tic-tac-toe" class="fill-div">
+          <a
+            onclick="onClickLink('https://github.com/tatazzi/tic-tac-toe')"
+            class="fill-div"
+          >
             <img class="projects-image" src="assets/images/tictactoe.svg" />
             <h2>Jogo da Velha</h2>
             <p class="subtitle">Jogo da Velha feito em html e javascript</p>
           </a>
         </div>
         <div class="projects-card">
-          <a href="https://github.com/tatazzi/smartBank" class="fill-div">
+          <a
+            onclick="onClickLink('https://github.com/tatazzi/smartBank')"
+            class="fill-div"
+          >
             <img class="projects-image" src="assets/images/smart-bank.svg" />
             <h2>Smart Bank</h2>
             <p class="subtitle">Layout feito em html e css</p>
@@ -129,26 +152,29 @@
         </div>
       </div>
     </section>
-    <section class="contact">
+    <section class="section-contact" id="contact">
       <h1 class="section-titles">Entrar em</h1>
       <h1 class="second-color">contato.</h1>
       <div class="contact-infos">
         <img class="contact-icon" src="assets/icons/letter.svg" />
-        <p>otaviol.gon@gmail.com</p>
+        <a href="malito:otaviol.gon@gmail.com">otaviol.gon@gmail.com</a>
       </div>
       <div class="contact-infos">
         <img class="contact-icon" src="assets/icons/phone.svg" />
-        <p>(75) 99164-4175</p>
+        <a href="tel:(75)99164-4175">(75) 99164-4175</a>
       </div>
     </section>
     <footer>
       <h1>Otavio Gonçalves</h1>
       <div class="home-info-social-media">
-        <a href="https://github.com/tatazzi" class="icon-social-media">
+        <a
+          onclick="onClickLink('https://github.com/tatazzi')"
+          class="icon-social-media"
+        >
           <img src="assets/icons/git-hub.svg" />
         </a>
         <a
-          href="https://www.linkedin.com/in/ot%C3%A1vio-gon%C3%A7alves-15aa76231/"
+          onclick="onClickLink('https://www.linkedin.com/in/ot%C3%A1vio-gon%C3%A7alves-15aa76231/')"
           class="icon-social-media"
         >
           <img src="assets/icons/linkedin.svg" />
