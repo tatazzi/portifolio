@@ -220,3 +220,30 @@ footer {
 .contact-icon {
   margin-right: 12px;
 }
+
+@media only screen and (max-device-width: 1440px) {
+  .navigation-bar {
+    width: 1024px;
+  }
+  .home-info {
+    width: 1024px;
+    height: 594px;
+  }
+  .project-card-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+}
+@media only screen and (max-device-width: 1024px) {
+  .navigation-bar {
+    width: 786px;
+  }
+  .home-info {
+    width: 786px;
+    height: 594px;
+  }
+  .project-card-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+}
