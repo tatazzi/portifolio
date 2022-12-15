@@ -233,6 +233,9 @@ footer {
     display: grid;
     grid-template-columns: 50% 50%;
   }
+  .navigation-link {
+    font-size: 28px;
+  }
 }
 @media only screen and (max-device-width: 1024px) {
   .navigation-bar {
