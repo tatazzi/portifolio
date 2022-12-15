@@ -6,6 +6,10 @@ This is a project, which shows my professional information and my portfolio.
 
 <img src="https://github.com/tatazzi/portifolio/blob/main/assets/images/preview.png"/>
 
+## live link
+
+https://tatazzi.github.io/portifolio/
+
 ## Instruction to run:
 
 1. Clone the project:
